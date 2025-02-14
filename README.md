@@ -22,6 +22,7 @@ pip install -r requirements.txt
 
 ```bash
 python3 manage.py migrate
+python3 manage.py collectstatic # Для адекватного отображения авто-документации
 ```
 
 ## Эндпоинты
