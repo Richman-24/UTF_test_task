@@ -15,9 +15,14 @@ git clone https://github.com/Richman-24/UTF_test_task.git
 python3 venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-
-python3 manage.py migrate
 '''
+## Запуск:
+- создать файл .env в корне проекта, заполнить по примеру из .env.example
+- применить миграции
+
+```bash
+python3 manage.py migrate
+```
 
 ## Эндпоинты
 GET 127.0.0.1:8000/api/v1/foods/: Получить список категорий с опубликованными в них объектами.
