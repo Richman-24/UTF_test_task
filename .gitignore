@@ -20,3 +20,4 @@ venv.bak/
 #VS Code Environment
 .vscode/
 task.md
+static/
