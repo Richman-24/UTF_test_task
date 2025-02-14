@@ -9,13 +9,13 @@
 Python, Django\DRF, DjangoORM, sqlite
 
 ## Установка:
-'''bash
+```bash
 git clone https://github.com/Richman-24/UTF_test_task.git
 
 python3 venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-'''
+```
 ## Запуск:
 - создать файл .env в корне проекта, заполнить по примеру из .env.example
 - применить миграции
